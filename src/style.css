@@ -14,3 +14,8 @@
 .auth-rosemary{position:absolute;left:2%;bottom:18px;color:#90a866;font-size:58px;letter-spacing:10px;transform:rotate(-19deg);text-shadow:2px 4px #31442c}
 .auth-drop{position:absolute;right:17%;top:35%;color:#f4a9ed;font-size:46px;text-shadow:0 0 16px #faade9}
 @media(max-width:750px){.auth-art{min-height:390px;padding:28px 30px 145px}.auth-art h1{margin:30px 0 12px;font-size:52px}.auth-art p{max-width:260px}.auth-botanical{height:46%;min-height:150px}.auth-onion{font-size:110px;left:3%;bottom:-8px}.auth-hair{font-size:240px;right:2%;bottom:-60px}.auth-rosemary{font-size:32px}.auth-drop{font-size:25px}.auth-art:after{bottom:-30px}}
+
+/* Display uploaded 4:3 recipe artwork without cropping */
+.recipe-card img{width:100%;height:auto;aspect-ratio:4/3;object-fit:contain;background:#f8edf5;display:block}
+.recipe-head img{width:100%;height:auto;aspect-ratio:4/3;object-fit:contain;background:#f8edf5;display:block}
+@media(max-width:750px){.recipe-card img{height:auto;aspect-ratio:4/3}.recipe-head img{height:auto;aspect-ratio:4/3}}
